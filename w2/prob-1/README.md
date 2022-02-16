@@ -7,4 +7,4 @@ Sample input:<br>
 Sample output:<br>
 `10`
 
-[Solution.c](prob-1/solution.c)
+[Solution.c](solution.c)
