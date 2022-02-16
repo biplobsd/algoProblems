@@ -8,4 +8,4 @@ Sample Input:
 Sample Output :
 6 5 4 3 2
 ```
-[Solution.c](prob-2/solution.c)
+[Solution.c](solution.c)
