@@ -57,7 +57,7 @@ void Quicksort(int array[], int left, int Right)
 
 void main()
 {
-    int n, arr[100], output[200], target, noteNeeded = 0, fillIn;
+    int n, arr[100], output[100], target, noteNeeded = 0, fillIn;
 
     scanf("%d", &n);
     for (int i = 0; i < n; i++)
