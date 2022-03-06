@@ -57,7 +57,7 @@ void Quicksort(int array[], int left, int Right)
 
 void main()
 {
-    int n, arr[100], output[100], target, noteNeeded = 0, fillIn;
+    int n, arr[100], output[200], target, noteNeeded = 0, i = 0;
 
     scanf("%d", &n);
     for (int i = 0; i < n; i++)
@@ -70,24 +70,21 @@ void main()
 
     while (target > 0)
     {
-        fillIn = 0;
-        for (int i = 0; i < n; i++)
+        
+        if (target >= arr[i])
         {
-            if (target >= arr[i])
-            {
-                target -= arr[i];
-                output[noteNeeded]=arr[i];
-                noteNeeded++;
-                fillIn = 1;
-                break;
+            int num = target/arr[i];
+            for(int p = 0;p<num;p++){
+                output[noteNeeded++]=arr[i];
             }
+            target -= num*arr[i];
         }
-        if (fillIn == 0)
-        {
+        i++;
+        if(i> n)
             break;
-        }
+        
     }
-    if (fillIn == 0)
+    if (target > 0)
     {
         printf("Impossible\n");
     }
