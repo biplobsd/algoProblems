@@ -1,5 +1,50 @@
 #include <stdio.h>
+void swap(int *x, int *y);
+int partition(int array[], int left, int Right);
+void Quicksort(int array[], int left, int Right);
 
+void main()
+{
+    int n, arr[100], output[200], target, noteNeeded = 0, i = 0;
+
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr[i]);
+    }
+    Quicksort(arr, 0, n-1);
+
+    scanf("%d", &target);
+
+    while (target > 0)
+    {
+        
+        if (target >= arr[i])
+        {
+            int num = target/arr[i];
+            for(int p = 0;p<num;p++){
+                output[noteNeeded++]=arr[i];
+            }
+            target -= num*arr[i];
+        }
+        i++;
+        if(i> n)
+            break;
+        
+    }
+    if (target > 0)
+    {
+        printf("Impossible\n");
+    }
+    else
+    {
+        printf("%d\n", noteNeeded);
+        for (int i = 0; i < noteNeeded; i++)
+        {
+            printf("%d ", output[i]);
+        }
+    }
+}
 
 void swap(int *x, int *y)
 {
@@ -54,48 +99,3 @@ void Quicksort(int array[], int left, int Right)
         Quicksort(array, pivot + 1, Right);
     }
 }
-
-void main()
-{
-    int n, arr[100], output[200], target, noteNeeded = 0, i = 0;
-
-    scanf("%d", &n);
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
-    Quicksort(arr, 0, n-1);
-
-    scanf("%d", &target);
-
-    while (target > 0)
-    {
-        
-        if (target >= arr[i])
-        {
-            int num = target/arr[i];
-            for(int p = 0;p<num;p++){
-                output[noteNeeded++]=arr[i];
-            }
-            target -= num*arr[i];
-        }
-        i++;
-        if(i> n)
-            break;
-        
-    }
-    if (target > 0)
-    {
-        printf("Impossible\n");
-    }
-    else
-    {
-        printf("%d\n", noteNeeded);
-        for (int i = 0; i < noteNeeded; i++)
-        {
-            printf("%d ", output[i]);
-        }
-    }
-}
-
-
