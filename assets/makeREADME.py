@@ -27,7 +27,7 @@ def writeFile():
     strings = '# Algorithms CSE215 Lab Problems<br>\n'
     for readme in scanReadme():
         strings += readme[1]+'<br>\n' + readfile(
-            readme[0])[:100].replace('\n', ' - ') + '...'+f'\n[View problem]({readme[0]})<br><br><br>\n\n'
+            readme[0])[:100].replace('\n', ' - ') + '...'+f'\n[View problem]({readme[0]})<br><br>\n\n'
     with open('README.md', 'w') as w:
         w.write(strings)
 
