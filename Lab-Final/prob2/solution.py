@@ -2,14 +2,15 @@ dnsString = input()
 
 words = []
 numbers = []
-for c in range(len(dnsString)):
+lengString = len(dnsString)
+for w in range(lengString):
     try:
-        numbers.append(int(dnsString[c]))
-    except ValueError:
-        words.append(dnsString[c])
+        numbers.append(int(dnsString[w]))
+    except:
+        words.append(dnsString[w])
 
-numbers.sort()
 words.sort(reverse=True)
+numbers.sort()
 
-for _ in range(len(words)):
-    print(f'{words[_]}{numbers[_]}', end='')
+for p in range(len(words)):
+    print(f'{words[p]}{numbers[p]}', end='')
