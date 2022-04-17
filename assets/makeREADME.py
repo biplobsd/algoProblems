@@ -1,18 +1,12 @@
 import os
 from bs4 import BeautifulSoup
+from pathlib import Path
 from markdown import markdown
 
 
 def scanReadme():
-    readmeFiles = []
-    for week in os.listdir():
-        if 'w' == week[0]:
-            for problem in os.listdir(week):
-                if 'prob' == problem[:4]:
-                    for readme in os.listdir(os.path.join(week, problem)):
-                        if 'README.md' == readme:
-                            readmeFiles.append([
-                                os.path.join(week, problem), f'## {week} {problem}'])
+    readmeFiles = [[
+        path.parent, f'## {path.parent}'] for path in list(Path('.').rglob('README.md'))[1:]]
     return readmeFiles
 
 
@@ -25,7 +19,7 @@ def readfile(path):
 def writeFile():
     strings = '# Algorithms CSE215 Lab Problems<br>\n'
     for readme in scanReadme():
-        filePath = readme[0].replace("\\", "/")
+        filePath = str(readme[0]).replace("\\", "/")
         strings += readme[1]+'<br>\n' + readfile(
             os.path.join(readme[0], 'README.md'))[:100].replace('\n', ' - ') + '...'+f'\n[View problem]({filePath})<br><br>\n\n'
     with open('README.md', 'w') as w:
