@@ -55,3 +55,7 @@ Nobita’s Fault -  - One day Nobita's mother told him to go to the market. His 
 Pack your bags -  - One day Atik Bhuiyan went to a supermarket for shopping. He bought some products of ...
 [View problem](w5/prob-3)<br><br>
 
+## w7\prob3<br>
+Game Playing - Evan is a student of class 10. He likes to play a game with a set of strings. - The rule ...
+[View problem](w7/prob3)<br><br>
+
