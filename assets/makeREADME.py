@@ -11,7 +11,7 @@ def scanReadme():
 
 
 def readfile(path):
-    with open(path) as r:
+    with open(path, encoding='utf8') as r:
         html = markdown(r.read())
         return ''.join(BeautifulSoup(html).findAll(text=True))
 

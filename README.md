@@ -11,6 +11,18 @@ New Species - A few Russian scientists have invented a new species of an animal.
 Does Mario get his favorite coin? - Suppose Mario lives in an imaginary world. - In that world, there is...
 [View problem](Lab-Final/prob3)<br><br>
 
+## Lab-Test02\prob-1<br>
+Find the algorithm. - Sam is faster in his office work compared to others. But he needs a wide table o...
+[View problem](Lab-Test02/prob-1)<br><br>
+
+## Lab-Test02\prob-2<br>
+Letter Grading System - Mr. Tom is a teacher. He has a good number of students. In the exam seasons, h...
+[View problem](Lab-Test02/prob-2)<br><br>
+
+## Lab-Test02\prob-3<br>
+Does Mario get his favorite coin? - Suppose Mario lives in an imaginary world. - In that world, there is...
+[View problem](Lab-Test02/prob-3)<br><br>
+
 ## w2\prob-1<br>
 Functions - Write a program in C to find GCD(Greatest Common Divisor) of two numbers using recursion. ...
 [View problem](w2/prob-1)<br><br>
@@ -44,11 +56,11 @@ Minimum cost of finding the right item - One day Lisa decided to take part in a 
 [View problem](w4/prob-3)<br><br>
 
 ## w5\prob-1<br>
-Rahim’s Shop -  - Mr. Rahim has a Shop in Bashundhara City. He sells many mobile phones and accessorie...
+Rahim�s Shop -  - Mr. Rahim has a Shop in Bashundhara City. He sells many mobile phones and accessories ...
 [View problem](w5/prob-1)<br><br>
 
 ## w5\prob-2<br>
-Nobita’s Fault -  - One day Nobita's mother told him to go to the market. His mother gave him some mon...
+Nobita�s Fault -  - One day Nobita's mother told him to go to the market. His mother gave him some money...
 [View problem](w5/prob-2)<br><br>
 
 ## w5\prob-3<br>
@@ -58,6 +70,10 @@ Pack your bags -  - One day Atik Bhuiyan went to a supermarket for shopping. He 
 ## w6\prob1<br>
 Q1. Cacar Dokan - Consider you have an uncle who lives in your village. He has a departmental store. I...
 [View problem](w6/prob1)<br><br>
+
+## w6\prob2<br>
+Disaster Recovery Robot - Every year, there are several natural disasters that happen in Bangladesh. O...
+[View problem](w6/prob2)<br><br>
 
 ## w7\prob3<br>
 Game Playing - Evan is a student of class 10. He likes to play a game with a set of strings. - The rule ...
