@@ -17,3 +17,5 @@ elif n%2==0:
     h = l2[n/2]
     l = l2[n/2+1]
     print((h+l)/2)
+
+# simplify the solution and solve the problem with even numbers
