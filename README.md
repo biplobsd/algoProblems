@@ -1,7 +1,7 @@
 # Algorithms CSE215 Lab Problems<br>
 
 ## Unsolved problems <br>
-[Lab-Test02/prob-1](Lab-Test02/prob-1) | [Lab-Test02/prob-2](Lab-Test02/prob-2) | [Lab-Test02/prob-3](Lab-Test02/prob-3) | [w6/prob2](w6/prob2) <br><br>
+[Lab-Test02/prob-1](Lab-Test02/prob-1) | [Lab-Test02/prob-3](Lab-Test02/prob-3) | [w6/prob2](w6/prob2) <br><br>
 
 ## All problems <br>
 
@@ -28,6 +28,22 @@ Letter Grading System - Mr. Tom is a teacher. He has a good number of students. 
 ### Lab-Test02\prob-3<br>
 Does Mario get his favorite coin? - Suppose Mario lives in an imaginary world. - In that world, there is...
 [View problem](Lab-Test02/prob-3)<br><br>
+
+### String-Problem\Task-18<br>
+Write a python program that takes two inputs. The first input is a string and the second input is a - ...
+[View problem](String-Problem/Task-18)<br><br>
+
+### String-Problem\Task-2<br>
+Write a python program that takes 2 inputs from the user, where the first input is a string with len...
+[View problem](String-Problem/Task-2)<br><br>
+
+### String-Problem\Task-6<br>
+Write a Python program that will ask the user to input a string (containing exactly one word). Then ...
+[View problem](String-Problem/Task-6)<br><br>
+
+### String-Problem\Task-7<br>
+Write a Python program that takes a string as an input from the user containing all small letters an...
+[View problem](String-Problem/Task-7)<br><br>
 
 ### w2\prob-1<br>
 Functions - Write a program in C to find GCD(Greatest Common Divisor) of two numbers using recursion. ...
@@ -62,11 +78,11 @@ Minimum cost of finding the right item - One day Lisa decided to take part in a 
 [View problem](w4/prob-3)<br><br>
 
 ### w5\prob-1<br>
-Rahim’s Shop -  - Mr. Rahim has a Shop in Bashundhara City. He sells many mobile phones and accessories ...
+Rahimï¿½s Shop -  - Mr. Rahim has a Shop in Bashundhara City. He sells many mobile phones and accessories ...
 [View problem](w5/prob-1)<br><br>
 
 ### w5\prob-2<br>
-Nobita’s Fault -  - One day Nobita's mother told him to go to the market. His mother gave him some money...
+Nobitaï¿½s Fault -  - One day Nobita's mother told him to go to the market. His mother gave him some money...
 [View problem](w5/prob-2)<br><br>
 
 ### w5\prob-3<br>
@@ -88,4 +104,4 @@ Game Playing - Evan is a student of class 10. He likes to play a game with a set
 
 
 <br><br>[Contract: biplobsd.github.io](https://biplobsd.github.io) <br>
- 2022-10-01 00:51:19
+ 2022-10-01 10:50:55
