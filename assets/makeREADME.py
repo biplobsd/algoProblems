@@ -23,6 +23,7 @@ def unSolvedStatus(paths):
 
         isanyF = False
         for maySo in os.listdir(path[0]):
+            maySo = maySo.lower()
             if 'solution' in maySo or 'main' in maySo:
                 isanyF = True
                 break
