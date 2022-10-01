@@ -35,7 +35,8 @@ def unSolvedStatus(paths):
 
 
 def writeFile():
-    strings = '# Algorithms CSE215 Lab Problems<br>\n\n'
+    with open('assets/HEAD.md') as r:
+        strings = r.read()+'\n\n'
     paths = scanReadme()
     strings += unSolvedStatus(paths) + '<br><br>\n\n'
     strings += '## All problems <br>\n\n'
