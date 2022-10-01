@@ -11,7 +11,7 @@ python .\assets\makeREADME.py
 ```
 
 ## Unsolved problems <br>
-[Lab-Test02/prob-1](Lab-Test02/prob-1) | [Lab-Test02/prob-3](Lab-Test02/prob-3) | [w6/prob2](w6/prob2) <br><br>
+[Lab-Test02/prob-3](Lab-Test02/prob-3) | [w6/prob2](w6/prob2) <br><br>
 
 ## All problems <br>
 
@@ -114,4 +114,5 @@ Game Playing - Evan is a student of class 10. He likes to play a game with a set
 
 
 <br><br>[Contract: biplobsd.github.io](https://biplobsd.github.io) <br>
- 2022-10-01 10:57:03
+2022-10-01 11:07:18
+
