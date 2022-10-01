@@ -3,7 +3,6 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from pathlib import Path
 from markdown import markdown
-import re
 
 
 def scanReadme():
@@ -15,8 +14,7 @@ def scanReadme():
 def readfile(path):
     with open(path, encoding='utf8') as r:
         html = markdown(r.read())
-        return ''.join(BeautifulSoup(html).findAll(text=True))
-
+        return ''.join(BeautifulSoup(html, features='html.parser').findAll(text=True))
 
 def unSolvedStatus(paths):
     unSolvedString = '## Unsolved problems <br>\n'
@@ -25,7 +23,7 @@ def unSolvedStatus(paths):
 
         isanyF = False
         for maySo in os.listdir(path[0]):
-            if ('solution' in maySo):
+            if 'solution' in maySo.lower():
                 isanyF = True
                 break
         if not isanyF:
